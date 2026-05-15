@@ -1,0 +1,6 @@
+{
+  "name": "Google Messages Smart Emoji",
+  "description": "A Chrome extension that suggests emojis for Google Messages based on context using the Gemini API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

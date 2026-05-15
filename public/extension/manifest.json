@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Google Messages Smart Emoji",
+  "version": "1.0",
+  "description": "Automatically suggests AI-generated context-aware emojis in Google Messages on the web.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://messages.google.com/web/*",
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://messages.google.com/web/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
