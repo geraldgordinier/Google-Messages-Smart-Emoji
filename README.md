@@ -1,20 +1,11 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Use the web version of Google Messages? I built a little chrome extension that will suggest an emoji for you after typing a sentence... with the power of AI 🤖
 
-# Run and deploy your AI Studio app
+- Download the extension from GitHub: https://lnkd.in/gpeQhyCh ✂️
 
-This contains everything you need to run your app locally.
+- In Chrome, go to chrome://extensions/ and turn on developer mode toggle in upper right. You can then select "load unpacked extension", open the unzipped folder, under public, select the "Extension" folder 📁 
 
-View your app in AI Studio: https://ai.studio/apps/513a770a-e101-4a70-b2e1-295239f53769
+- Pin the extension. The Chrome extension is powered by Gemini, so add your own API key in the settings (you can get one of those cool things here https://lnkd.in/gD-6Ribv)  🔑
 
-## Run Locally
+- Go to Google Messages, type a sentence, a magical emoji will be suggested. Hit tab. Behold: An emoji. ✨
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Emoji everything. Have fun. 🥳
